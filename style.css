@@ -13,13 +13,14 @@ html{
 #section{
     box-sizing: border-box;
     width: 800px;
-    height: 700px;
+    height: 600px;
     background-image: linear-gradient(to bottom right,
      rgba(12, 180, 68, 0.5) 50%, 
      transparent 50%), url(./images/img2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     float: left;
+    
 }
 #section h3, p{
     color: #fff;
@@ -44,13 +45,16 @@ html{
 }
 #form .inp1, .inp2{
     padding: 3px 0px 3px 5px;
+    background-color: darkgrey;
 }
 #form a{
   text-decoration: none;  
-  color: #000;
   margin: 3px;
   display: block;
 }
+/* #form a:hover{
+    color: rgba(12, 11, 11, 0.014);
+} */
 .bouton{
   border-style: ridge;
   margin-top: 5px;
